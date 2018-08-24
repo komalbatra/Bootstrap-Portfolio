@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("../assets/images/background.png");
+        }
+
+.navbar{
+    /* background:#ffffff; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 5px solid #cccccc;
+   }
+   .nav-link , .navbar-brand{
+    cursor: pointer;
+   }
+
+   .navbar-brand{
+       color: white;
+       font-size: 28px;
+       /* box-sizing: content-box; */
+       margin-left: 150px;
+       /* height: 100%;
+       display: block; */
+       
+   }
+
+   .nav-link{
+    margin-right: 1em !important;
+    font-size: 14px;
+    color: #777777;
+   }
+   .nav-link:hover{
+    background: #4aaaa5;
+    color: #ffffff;
+   }
+   .navbar-collapse{
+    justify-content: flex-end;
+   }
+   .navbar-toggler{
+     background:#fff !important;
+   }
+
+   .bg-primary{
+    background-color:#007bff!important
+    }
+
+        
+
+.container {
+width: 960px;
+background:#ffffff;
+border: 6px solid #ffffff;
+margin-top: 50px;
+}   
+
+h2{
+    /* color: #4aaaa5; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+hr { 
+    display: block;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 2px;
+    margin: 0 30px 0 30px;
+    }
+    
+    #aboutpic {
+        display: block;
+        float: left;
+        margin-right: 20px;
+        padding: 10px 30px 10px 30px;
+        margin: 20px 0 0 10px;
+        }  
+
+        /* porfolio */
+       
+        
+        #porttext {
+            text-align: center;
+            background: #4aaaa5;
+            padding: 0px;
+            height: 42px;
+            float: left;
+            line-height: 40px;
+            margin-top: 170px;
+            margin-left: -19px;
+            width: 325px;
+            color: white;
+            font-size: bolder;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 26px;
+                    }
+
+   
+
+
+        #row1{
+            margin-top: 30px;
+        }
+
+/* footer */
+.footer {
+    bottom: 0;
+    height: 60px;
+    line-height: 60px;
+    /* background-color: #666666; */
+    font: white;
+    text-align: center;
+    border-top: 5px solid teal;
+}
