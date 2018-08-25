@@ -5,25 +5,21 @@
 
 body {
     background-image: url("../assets/images/background.png");
-        }
+      }
 
 .navbar{
-    /* background:#ffffff; */
-    font-family: Georgia, 'Times New Roman', Times, serif;
+   font-family: Georgia, 'Times New Roman', Times, serif;
     border-bottom: 5px solid #cccccc;
    }
-   .nav-link , .navbar-brand{
-    cursor: pointer;
-   }
 
-   .navbar-brand{
-       color: white;
-       font-size: 28px;
-       /* box-sizing: content-box; */
-       margin-left: 150px;
-       /* height: 100%;
-       display: block; */
-       
+.nav-link , .navbar-brand{
+cursor: pointer;
+}
+
+.navbar-brand{
+    color: white;
+    font-size: 28px;
+    margin-left: 150px;
    }
 
    .nav-link{
@@ -56,7 +52,6 @@ margin-top: 50px;
 }   
 
 h2{
-    /* color: #4aaaa5; */
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -79,28 +74,26 @@ hr {
         /* porfolio */
        
         
-        #porttext {
-            text-align: center;
-            background: #4aaaa5;
-            padding: 0px;
-            height: 42px;
-            float: left;
-            line-height: 40px;
-            margin-top: 170px;
-            margin-left: -19px;
-            width: 325px;
-            color: white;
-            font-size: bolder;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 26px;
-                    }
+#porttext {
+    text-align: center;
+    background: #4aaaa5;
+    padding: 0px;
+    height: 42px;
+    float: left;
+    line-height: 40px;
+    margin-top: 170px;
+    margin-left: -19px;
+    width: 325px;
+    color: white;
+    font-size: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+}
 
-   
+#row1{
+    margin-top: 30px;
+}
 
-
-        #row1{
-            margin-top: 30px;
-        }
 
 /* footer */
 .footer {
